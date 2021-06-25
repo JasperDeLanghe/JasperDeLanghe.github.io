@@ -12,39 +12,64 @@
 <body>
 
   <header>
-    <h1>Portfolio <span>by Jasper De Langhe</span></h1>
+    <h1>portfolio <span>by Jasper De Langhe</span></h1>
     <nav>
       <ul>
-        <li><a href="#about">About</a></li>
-        <li><a href="#projects">Projects</a></li>
-        <li><a href="#contact">Contact</a></li>
+        <li><a href="#about">about</a></li>
+        <li><a href="#projects">projects</a></li>
+        <li><a href="#contact">contact</a></li>
       </ul>
     </nav>
   </header>
 
   <main>
     <section id="about">
-      <h2>About me</h2>
-      <p>I'm a full stack web developer at <a href="https://www.creathing.be/" target="_blank">CreaThing</a>.<br /> Mainly working with scss, javascript, reactjs and php (Drupal 7-8-9).</p>
-      <p>I'm also working towards my bachelor's degree in Software Development at <a href="https://www.vives.be/" target="_blank">VIVES</a>, currently moving into the second year of this 4-year program.</p>
-      <p>My main intrests are gaming, game development, music and hiking.</p>
-      <p>You will always, without fail, get my attention with cats and coffee.</p>
+      <h2>about me</h2>
+      <div class="about-content">
+        <div class="about-description">
+          <p>I'm a full stack web developer at <a href="https://www.creathing.be/" target="_blank">CreaThing</a>.<br /> Mainly working with scss, javascript, reactjs and php (using Drupal 7-8-9).</p>
+          <p>I'm also working towards my bachelor's degree in Software Development at <a href="https://www.vives.be/" target="_blank">VIVES</a>, currently going into my second year of the 4-year program.</p>
+          <p>My main intrests are gaming, game development, music and hiking.</p>
+          <p>You will always get my attention using ☕ and/or 🐱.</p>
+        </div>
+        <div class="about-picture">
+          <img src="https://images.unsplash.com/photo-1521572267360-ee0c2909d518?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=934&q=80" width="100%" />
+          <div class="overlay"></div>
+        </div>
+      </div>
     </section>
     <section id="projects">
-      <h2>Take a look at these projects I've built</h2>
-      <div class="project-list">
-        <div class="project"></div>
-        <div class="project"></div>
-        <div class="project"></div>
-        <div class="project"></div>
-        <div class="project"></div>
+      <h2>take a look at these projects I've built</h2>
+      <div class="projects-list">
+        <!-- Example project -->
+        <div class="project">
+          <div class="project-image">
+            <img src="https://images.unsplash.com/photo-1498050108023-c5249f4df085?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1352&q=80" width="100%" />
+          </div>
+          <div class="project-description">
+            <h3>Project Title</h3>
+            <ul class="project-tags">
+              <li>HTML</li>
+              <li>CSS</li>
+              <li>JS</li>
+            </ul>
+            <p class="project-text">
+              Lorem ipsum dolor sit, amet consectetur adipisicing elit. Sequi repellat provident unde non debitis doloremque? Est, quibusdam. Sapiente itaque consectetur ullam, illum, sed temporibus debitis quae dolorem dolorum tempora deserunt.
+            </p>
+            <div class="project-actions">
+              <a href="https://www.google.be">Live demo</a>
+              <a href="https://www.google.be">Source code</a>
+            </div>
+          </div>
+        </div>
       </div>
     </section>
     <section id="contact">
-      <h2>Want to contact me?</h2>
-      <ul>
-        <li><a href="https://www.linkedin.com/in/jasper-de-langhe/" target="_blank"><i>Linkedin icon</i> my linkedin</a></li>
-        <li><a href="mailto:hello@jasperdelanghe.xyz"><i>mail icon</i> hello@jasperdelanghe.xyz</a></li>
+      <h2>want to contact me?</h2>
+      <ul class="contact-list">
+        <li><a href="mailto:hello@jasperdelanghe.xyz">hello@jasperdelanghe.xyz</a></li>
+        <li><a href="https://www.linkedin.com/in/jasper-de-langhe/" target="_blank">LinkedIn</a></li>
+        <li><a href="https://github.com/JasperDeLanghe" target="_blank">GitHub</a></li>
       </ul>
     </section>
   </main>
